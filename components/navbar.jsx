@@ -1,5 +1,12 @@
-import Card from "../styles/Card.module.css";
+import navbarStyles from "../styles/Navbar.module.scss";
 
 export default function Home() {
-  return <div className={Card.card}>hi</div>;
+  return (
+    <nav className={navbarStyles.navbar}>
+      <ul className={navbarStyles.navLinks}>
+        <li className={navbarStyles.navLink}>Home</li>
+        <li className={navbarStyles.navLink}>About</li>
+      </ul>
+    </nav>
+  );
 }
