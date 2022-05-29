@@ -1,8 +1,6 @@
 @use "./abstracts" as *;
 
 .navbar {
-  // position: fixed;
-  // top: 0;
   width: 100%;
 
   .navLinks {
@@ -22,7 +20,7 @@
   }
 
   .navLink:hover,
-  .active {
+  .navLinkActive {
     color: #61ce70;
     cursor: pointer;
     box-sizing: content-box;
