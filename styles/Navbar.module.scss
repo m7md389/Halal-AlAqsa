@@ -1,0 +1,42 @@
+@use "./abstracts" as *;
+
+.navbar {
+  // position: fixed;
+  // top: 0;
+  width: 100%;
+
+  .navLinks {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-block: 3rem;
+    line-height: 2rem;
+  }
+
+  .navLink {
+    font-family: $secondary-font;
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #7a7a7a;
+    padding: 1.3rem 2rem;
+  }
+
+  .navLink:hover,
+  .active {
+    color: #61ce70;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background-color: #61ce70;
+      z-index: 2;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@use "./abstracts" as *;
+
+.footer {
+  // position: fixed;
+  // bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 5rem 0 8rem;
+
+  p {
+    font-family: $secondary-font;
+    height: 50px;
+    color: #6ec1e4;
+    font-size: 3.2rem;
+    margin: auto;
+    padding: 1rem;
+    font-weight: bold;
+  }
+}

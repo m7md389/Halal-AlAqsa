@@ -1,0 +1,30 @@
+@use "./abstracts" as *;
+
+.card {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-style: dashed;
+  border-color: #f6a623;
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 85vw;
+
+  .title {
+    font-family: $primary-font;
+    font-size: 4.6rem;
+    color: #f6a623;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .description {
+    font-family: $secondary-font;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 10px;
+  }
+}
