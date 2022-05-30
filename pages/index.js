@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
         <Hero
-          title={"Hero test"}
+          title={"Company Name"}
           paragraph={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
           }

@@ -1,9 +1,11 @@
+@use "./abstracts" as *;
+
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   min-height: 100vh;
-  background-color: #3b4656;
+  background-color: $background-color;
   font-size: 62.5%;
 }
 
@@ -12,6 +14,6 @@ a {
   text-decoration: none;
 }
 
-* {
+* ::after,::before{
   box-sizing: border-box;
 }
