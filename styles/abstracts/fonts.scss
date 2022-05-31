@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@200;400;700&family=Shadows+Into+Light:wght@200;400;700&display=swap');
 
-$primary-font: 'Oswald', sans-serif;
-$secondary-font: 'Roboto', sans-serif;
-$tertiary-font: 'Shadows Into Light', cursive;
+$font-family--primary: 'Oswald', sans-serif;
+$font-family--secondary: 'Roboto', sans-serif;
+$font-family--tertiary: 'Shadows Into Light', cursive;
+
+$font-size--small: 1.3rem;
+$font-size--medium: 2rem;
+$font-size--large: 3.6rem;
+$font-size--x-large: 4.2rem;
+$font-size--xx-large: 8.2rem;

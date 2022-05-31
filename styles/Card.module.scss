@@ -13,7 +13,7 @@
 
   .title {
     text-transform: uppercase;
-    font-family: $primary-font;
+    font-family: $font-family--primary;
     font-size: 4.6rem;
     color: $primary-color;
     padding-bottom: 30px;
@@ -22,7 +22,7 @@
   }
 
   .description {
-    font-family: $secondary-font;
+    font-family: $font-family--secondary;
     font-size: 2rem;
     color: #fff;
     margin: 0 0 20px;
