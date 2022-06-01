@@ -20,7 +20,7 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <p className={navbarStyles.contact}>Get in touch: +972 50 123 4567</p>
+          <p className={navbarStyles.contact}>Get in touch: +972 50 712 3652</p>
         </div>
       </div>
     </nav>

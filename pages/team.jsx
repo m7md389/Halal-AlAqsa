@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Hero from "./../components/Hero";
 import TeamCard from "./../components/TeamCard";
-import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   const teamMembers = [
@@ -16,11 +15,17 @@ export default function Home() {
       photoUrl:
         "https://www.aljazeera.net/wp-content/uploads/2014/08/dbffe381-8987-4a25-93ad-2755ca82402c.jpeg?resize=686%2C513",
       cv: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mollis augue sed cursus. Nunc cursus tristique orci eget vehicula. Mauris eu elit risus. Cras hendrerit aliquet turpis, eu vulputate neque placerat et. Integer nunc libero, iaculis ac sollicitudin ac, tempus sit amet velit. Cras luctus accumsan mi eu facilisis. Fusce tempus tempus ipsum. Curabitur pretium tellus in mauris tincidunt, id feugiat mi malesuada. Nam eros orci, consectetur nec volutpat."
+    },
+    {
+      name: "Ibrahim Afaneh",
+      photoUrl:
+        "https://www.alquds.edu/wp-content/uploads/2021/08/Tarek-Rabi.jpg",
+      cv: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mollis augue sed cursus. Nunc cursus tristique orci eget vehicula. Mauris eu elit risus. Cras hendrerit aliquet turpis, eu vulputate neque placerat et. Integer nunc libero, iaculis ac sollicitudin ac, tempus sit amet velit. Cras luctus accumsan mi eu facilisis. Fusce tempus tempus ipsum. Curabitur pretium tellus in mauris tincidunt, id feugiat mi malesuada. Nam eros orci, consectetur nec volutpat."
     }
   ];
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Halal AlAqsa - members</title>
         <meta name="description" content="Team Members" />
