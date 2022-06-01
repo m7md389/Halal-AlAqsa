@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home</title>
+        <title>Halal AlAqsa</title>
         <meta name="description" content="Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Hero
-          title={"Company Name"}
+          title={"Halal AlAqsa"}
           paragraph={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
           }
