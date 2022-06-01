@@ -1,11 +1,9 @@
-.team{
-    .members{
-        display: grid;
-    }
+.team {
+  .members {
+    display: grid;
 
     @media screen and (min-width: 720px) {
-        .members{
-            grid-template-columns: 1fr 1fr;
-        }
+      grid-template-columns: 1fr 1fr;
     }
+  }
 }

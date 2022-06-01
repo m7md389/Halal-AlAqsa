@@ -12,7 +12,7 @@
   max-width: 85vw;
   row-gap: 20px;
 
-  .title {
+  .heading {
     text-transform: uppercase;
     font-family: $font-family--primary;
     font-size: $font-size--medium-large;
@@ -34,11 +34,11 @@
 
   @media screen and (min-width: 720px) {
     padding: 35px;
-    .title{
+    .heading {
       font-size: $font-size--large;
     }
 
-    .description{
+    .description {
       font-size: $font-size--small;
     }
   }
@@ -46,11 +46,11 @@
   @media screen and (min-width: 1024px) {
     padding: 50px;
 
-    .title{
+    .heading {
       font-size: $font-size--x-large;
     }
 
-    .description{
+    .description {
       font-size: $font-size--medium;
     }
   }
