@@ -4,7 +4,7 @@ import footerStyles from "../styles/Footer.module.scss";
 const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
-      <p>Halal AlAqsa - 2022</p>
+      <h2 className={footerStyles.company}>Halal AlAqsa - 2022</h2>
     </footer>
   );
 };

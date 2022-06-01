@@ -1,17 +1,33 @@
 @use "./abstracts" as *;
 
 .footer {
-  width: 100%;
+  padding: 20px 0 40px;
   display: flex;
-  padding: 5rem 0 8rem;
+  justify-content: center;
 
-  p {
+  .company{
+    line-height: 40px;
     font-family: $font-family--secondary;
-    height: 50px;
     color: $lightblue-color;
-    font-size: 3.2rem;
-    margin: auto;
+    font-size: $font-size--medium;
+    margin: 0;
     padding: 1rem;
     font-weight: bold;
+  }
+
+  @media screen and (min-width: 720px) {
+    padding: 25px 0 45px;
+    line-height: 50px;
+
+    .company{
+      font-size: $font-size--medium-large;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 30px 0 50px;
+    .company{
+      font-size: $font-size--large;
+    }
   }
 }

@@ -1,0 +1,62 @@
+@use "./abstracts" as *;
+
+.container{
+    .member{
+        display: flex;
+        padding-inline: 10px;
+        align-items: center;
+        justify-content: center;
+
+        .photo{
+            aspect-ratio: 1;
+            width: 60px;
+            border-radius: 50%;
+            margin-inline-end: 15px;
+        }
+    
+        .name{
+            text-transform: uppercase;
+            font-family: $font-family--tertiary;
+            font-size: $font-size--x-small;
+            color: $primary-color;
+            margin: 0;
+            text-align: left;
+            font-weight: 300;
+        }
+    }
+
+    .cv{
+        font-family: $font-family--secondary;
+        font-size: $font-size--x-small;
+        color: #fff;
+        margin: 0 0 20px;
+        padding: 10px;
+        text-align: justify;
+        text-indent: 3ch;
+    }
+
+    @media screen and (min-width: 720px) {
+        .member{
+            .name{
+                font-size: $font-size--medium-large;
+
+            }
+
+            .cv{
+                font-size: $font-size--x-small;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .member{
+            .name{
+
+            }
+
+            .cv{
+                
+            }
+        }
+    }
+}

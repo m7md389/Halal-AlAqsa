@@ -1,7 +1,7 @@
 @use "./abstracts" as *;
 
 .card {
-  padding: 50px;
+  padding: 30px 20px 20px;
   background-color: rgba(0, 0, 0, 0.25);
   border-style: dashed;
   border-color: $primary-color;
@@ -10,22 +10,48 @@
   flex-direction: column;
   margin: 50px auto;
   max-width: 85vw;
+  row-gap: 20px;
 
   .title {
     text-transform: uppercase;
     font-family: $font-family--primary;
-    font-size: 4.6rem;
+    font-size: $font-size--medium-large;
     color: $primary-color;
-    padding-bottom: 30px;
     margin: 0;
+    padding: 10px;
     text-align: center;
   }
 
   .description {
     font-family: $font-family--secondary;
-    font-size: 2rem;
+    font-size: $font-size--x-small;
     color: #fff;
-    margin: 0 0 20px;
+    margin: 0;
     padding: 10px;
+    text-align: justify;
+    text-indent: 3ch;
+  }
+
+  @media screen and (min-width: 720px) {
+    padding: 35px;
+    .title{
+      font-size: $font-size--large;
+    }
+
+    .description{
+      font-size: $font-size--small;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 50px;
+
+    .title{
+      font-size: $font-size--x-large;
+    }
+
+    .description{
+      font-size: $font-size--medium;
+    }
   }
 }

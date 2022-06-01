@@ -14,6 +14,9 @@ export default function Home() {
             <li onClick={() => {}} className={getNavlinkClass("/about")}>
               <Link href="/about">About</Link>
             </li>
+            <li onClick={() => {}} className={getNavlinkClass("/team")}>
+              <Link href="/team">Our Team</Link>
+            </li>
           </ul>
         </div>
         <div>
