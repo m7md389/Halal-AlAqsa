@@ -5,6 +5,8 @@ import navbarStyles from "../styles/Navbar.module.scss";
 import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
+  const currentPath = useRouter().asPath;
+
   return (
     <nav className={navbarStyles.navbar}>
       <div className={navbarStyles.grid}>
@@ -18,13 +20,22 @@ export default function Home() {
 
         <section role="navbar links">
           <ul className={navbarStyles.navLinks}>
-            <li onClick={() => {}} className={getNavlinkClass("/")}>
+            <li
+              onClick={() => {}}
+              className={getNavlinkClass(currentPath, "/")}
+            >
               <Link href="/">Home</Link>
             </li>
-            <li onClick={() => {}} className={getNavlinkClass("/about")}>
+            <li
+              onClick={() => {}}
+              className={getNavlinkClass(currentPath, "/about")}
+            >
               <Link href="/about">About</Link>
             </li>
-            <li onClick={() => {}} className={getNavlinkClass("/team")}>
+            <li
+              onClick={() => {}}
+              className={getNavlinkClass(currentPath, "/team")}
+            >
               <Link href="/team">Our Team</Link>
             </li>
             <li
@@ -63,13 +74,8 @@ export default function Home() {
 
 const onClickNavLink = () => {};
 
-const getNavlinkClass = (link) => {
-  const router = useRouter();
-  const currentPath = router.asPath;
-
-  if (currentPath === link) {
-    return `${navbarStyles.navLink} ${navbarStyles.navLinkActive}`;
-  }
-
-  return navbarStyles.navLink;
+const getNavlinkClass = (currentPath, link) => {
+  return navbarStyles.navLink + currentPath === link
+    ? ` ${navbarStyles.navLinkActive}`
+    : "";
 };
