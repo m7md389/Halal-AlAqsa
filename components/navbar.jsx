@@ -74,8 +74,7 @@ export default function Home() {
 
 const onClickNavLink = () => {};
 
-const getNavlinkClass = (currentPath, link) => {
-  return navbarStyles.navLink + currentPath === link
-    ? ` ${navbarStyles.navLinkActive}`
-    : "";
-};
+const getNavlinkClass = (currentPath, link) =>
+  currentPath === link
+    ? `${navbarStyles.navLink} ${navbarStyles.navLinkActive}`
+    : navbarStyles.navLink;
