@@ -11,7 +11,7 @@ const TeamCard = (props) => {
       <Card heading="Our Team Members">
         <div className={teamCardStyles.members}>
           {teamMembers.map((member) => (
-            <MemberCard key= {...member} />
+            <MemberCard key={member.name} {...member} />
           ))}
         </div>
       </Card>
