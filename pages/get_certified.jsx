@@ -23,7 +23,7 @@ export default function Home() {
       faIcon: faMicroscope,
       heading: "Inspection",
       description:
-        "Our Rabbinic representative will visit the factory/plant for an initial inspection of your facility. This initial inspection will give us a more clear indication of the pathway if kosher certification is viable."
+        "Our specialist representative will visit the factory/plant for an initial inspection of your facility. This initial inspection will give us a more clear indication of the pathway if halal certification is viable."
     },
     {
       faIcon: faLayerGroup,
