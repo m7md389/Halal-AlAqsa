@@ -70,7 +70,9 @@
 
     .heading {
       font-size: $font-size--large;
+      letter-spacing: 1px;
       margin: 20px 0;
+      text-transform: uppercase;
     }
 
     main {
@@ -101,7 +103,6 @@
           font-size: $font-size--medium;
           font-weight: 200;
           margin-inline-start: 0.25em;
-          text-transform: uppercase;
         }
       }
     }

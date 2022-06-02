@@ -40,7 +40,7 @@ export default function Home() {
             </li>
             <li
               onClick={() => {}}
-              className={getNavlinkClass("/get_certified")}
+              className={getNavlinkClass(currentPath, "/get_certified")}
             >
               <Link href="/get_certified">Get Certified</Link>
             </li>
