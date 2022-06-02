@@ -59,7 +59,7 @@ export default function Home() {
 
         <Card heading="The process">
           {processes.map((process) => (
-            <Process {...process} />
+            <Process key={process.heading} {...process} />
           ))}
         </Card>
       </main>
