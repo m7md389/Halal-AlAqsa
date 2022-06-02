@@ -24,7 +24,7 @@
     "eslint-config-next": "12.1.6"
   },
   "engines": {
-    "node": "8.1.2",
-    "npm": "16.13.1"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }
