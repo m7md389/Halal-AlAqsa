@@ -64,7 +64,8 @@ export default function Home() {
 const onClickNavLink = () => {};
 
 const getNavlinkClass = (link) => {
-  const currentPath = useRouter().asPath;
+  const router = useRouter();
+  const currentPath = router.asPath;
 
   if (currentPath === link) {
     return `${navbarStyles.navLink} ${navbarStyles.navLinkActive}`;
