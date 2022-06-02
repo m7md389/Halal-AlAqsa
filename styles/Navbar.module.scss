@@ -1,21 +1,37 @@
 @use "./abstracts" as *;
 
 .navbar {
-  width: 100%;
-
   .grid {
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     justify-items: center;
+    margin-inline: auto;
+    padding: 20px;
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+
+  .logoContainer {
+    padding: 20px;
+
+    .logo {
+      width: 100px;
+      aspect-ratio: 1;
+    }
   }
 
   .navLinks {
     list-style-type: none;
     display: flex;
     line-height: 2rem;
-    margin: 0;
-    padding-block: 3rem;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .navLink {
       color: #7a7a7a;
@@ -46,10 +62,48 @@
   }
 
   .contact {
+    display: flex;
     color: $primary-color;
+    flex-direction: column;
     font-family: $font-family--primary;
-    font-size: 2.7rem;
-    font-weight: 200;
-    text-transform: uppercase;
+    text-align: center;
+
+    .heading {
+      font-size: $font-size--large;
+      margin: 20px 0;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+
+      section {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: flex-start;
+        line-height: 1em;
+
+        .icon {
+          display: flex;
+          align-items: center;
+          aspect-ratio: 1;
+          background-color: rgba(255, 255, 255, 0.161);
+          border-radius: 50%;
+          color: rgba($color: $primary-color, $alpha: 0.75);
+          font-size: $font-size--small;
+          height: 30px;
+          justify-content: center;
+        }
+
+        .data {
+          font-size: $font-size--medium;
+          font-weight: 200;
+          margin-inline-start: 0.25em;
+          text-transform: uppercase;
+        }
+      }
+    }
   }
 }

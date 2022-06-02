@@ -8,7 +8,7 @@ const TeamCard = (props) => {
 
   return (
     <section role="team" className={teamCardStyles.team}>
-      <Card title="Our Team Members">
+      <Card heading="Our Team Members">
         <div className={teamCardStyles.members}>
           {teamMembers.map((member) => (
             <MemberCard {...member} />

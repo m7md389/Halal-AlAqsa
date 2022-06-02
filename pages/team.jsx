@@ -20,7 +20,7 @@ export default function Home() {
       name: "Ibrahim Afaneh",
       photoUrl:
         "https://www.alquds.edu/wp-content/uploads/2021/08/Tarek-Rabi.jpg",
-      cv: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet mollis augue sed cursus. Nunc cursus tristique orci eget vehicula. Mauris eu elit risus. Cras hendrerit aliquet turpis, eu vulputate neque placerat et. Integer nunc libero, iaculis ac sollicitudin ac, tempus sit amet velit. Cras luctus accumsan mi eu facilisis. Fusce tempus tempus ipsum. Curabitur pretium tellus in mauris tincidunt, id feugiat mi malesuada. Nam eros orci, consectetur nec volutpat."
+      cv: "diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac."
     }
   ];
 
