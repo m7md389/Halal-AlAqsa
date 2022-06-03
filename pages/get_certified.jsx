@@ -10,7 +10,7 @@ import {
   faScroll
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function Home() {
+export default function GetCertified() {
   const processes = [
     {
       faIcon: faBookmark,

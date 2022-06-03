@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "./../components/Hero";
 import TeamCard from "./../components/TeamCard";
 
-export default function Home() {
+export default function Team() {
   const teamMembers = [
     {
       name: "Mohammad Jaber",

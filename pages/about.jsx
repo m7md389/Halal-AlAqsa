@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "./../components/Hero";
 import Card from "./../components/Card";
 
-export default function Home() {
+export default function About() {
   return (
     <div>
       <Head>
