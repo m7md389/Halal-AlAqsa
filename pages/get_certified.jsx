@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Card from "../components/Card";
-import Process from "../components/Process";
-import Hero from "./../components/Hero";
+import Card from "/components/Card";
+import Process from "/components/Process";
+import Hero from "/components/Hero";
 
 import {
   faBookmark,

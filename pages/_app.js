@@ -1,4 +1,4 @@
-// import Layout from "../components/Layout";
+import Layout from "/components/Layout";
 import "normalize.css";
 import "../styles/globals.scss";
 
@@ -8,10 +8,9 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Component {...pageProps} />
-    // <Layout>
-    //   <Component {...pageProps} />
-    // </Layout>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
 

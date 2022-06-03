@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Hero from "./../components/Hero";
-import TeamCard from "./../components/TeamCard";
+import Hero from "/components/Hero";
+import TeamCard from "/components/TeamCard";
 
 export default function Team() {
   const teamMembers = [
