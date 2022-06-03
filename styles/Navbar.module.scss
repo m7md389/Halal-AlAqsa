@@ -1,40 +1,30 @@
 @use "./abstracts" as *;
 
 .navbar {
-  .grid {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-items: center;
-    margin-inline: auto;
-    padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px 50px;
 
-    @media screen and (min-width: 1024px) {
-      flex-direction: row;
-    }
-  }
-
-  .logoContainer {
-    padding: 20px;
-
-    .logo {
-      width: 100px;
-      aspect-ratio: 1;
-    }
+  .logo {
+    width: 150px;
+    aspect-ratio: 1;
   }
 
   .navLinks {
-    list-style-type: none;
     display: flex;
-    line-height: 2rem;
-    padding: 0;
     flex-wrap: wrap;
     justify-content: center;
+    line-height: 2rem;
+    list-style-type: none;
+    padding: 0;
 
     .navLink {
-      color: #7a7a7a;
+      color: $navlink-color;
       font-family: $font-family--secondary;
       font-size: 1.6rem;
       font-weight: 900;
@@ -44,12 +34,12 @@
     .navLink:hover,
     .navLinkActive {
       box-sizing: content-box;
-      color: $lightgreen-color;
+      color: $secondary-color;
       cursor: pointer;
       position: relative;
 
       &::after {
-        background-color: $lightgreen-color;
+        background-color: $secondary-color;
         bottom: 0;
         content: "";
         height: 3px;
@@ -69,8 +59,11 @@
     text-align: center;
 
     .heading {
+      text-shadow: 4px 3px 0 $navlink-color;
       font-size: $font-size--large;
-      margin: 20px 0;
+      letter-spacing: 1px;
+      margin: 10px 0;
+      text-transform: uppercase;
     }
 
     main {
@@ -91,7 +84,7 @@
           aspect-ratio: 1;
           background-color: rgba(255, 255, 255, 0.161);
           border-radius: 50%;
-          color: rgba($color: $primary-color, $alpha: 0.75);
+          color: rgba($secondary-color, 0.75);
           font-size: $font-size--small;
           height: 30px;
           justify-content: center;
@@ -101,9 +94,13 @@
           font-size: $font-size--medium;
           font-weight: 200;
           margin-inline-start: 0.25em;
-          text-transform: uppercase;
+          color: $secondary-color;
         }
       }
     }
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
   }
 }

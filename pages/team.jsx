@@ -35,7 +35,7 @@ export default function Home() {
       <main>
         <Hero
           title={"Team members"}
-          paragraph={
+          tagline={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
           }
           img={{

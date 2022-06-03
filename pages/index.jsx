@@ -14,12 +14,12 @@ export default function Home() {
       <main>
         <Hero
           title={"Halal AlAqsa"}
-          paragraph={
+          tagline={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
           }
           img={{
             url: "https://oks.org.il/wp-content/uploads/2021/04/jars-OKS-1.jpg",
-            desc: "Test image."
+            desc: "Home page hero image."
           }}
         />
       </main>
