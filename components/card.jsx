@@ -1,7 +1,7 @@
 import React from "react";
 import cardStyles from "../styles/Card.module.scss";
 
-const Card = (props) => {
+export default function Card(props) {
   const { heading, description, children } = props;
   return (
     <div className={cardStyles.card}>
@@ -10,6 +10,6 @@ const Card = (props) => {
       {children}
     </div>
   );
-};
+}
 
-export default Card;
+// export default Card;
