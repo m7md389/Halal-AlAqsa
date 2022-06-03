@@ -1,5 +1,7 @@
 {
-  "cacheDirectories": [".next/cache"],
+  "cacheDirectories": [
+    ".next/cache"
+  ],
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +23,7 @@
     "sass": "^1.52.1"
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6"
   },
