@@ -8,7 +8,7 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 
 function MyApp({ Component, pageProps }) {
   return (
-    <h1>Hi</h1>
+    <Component {...pageProps} />
     // <Layout>
     //   <Component {...pageProps} />
     // </Layout>
