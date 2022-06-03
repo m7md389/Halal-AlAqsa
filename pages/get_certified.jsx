@@ -50,10 +50,10 @@ export default function Home() {
       <main>
         <Hero
           title={"Get Certified"}
-          paragraph={"4 steps certification process"}
+          tagline={"4 steps certification process"}
           img={{
-            url: "https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg?auto=webp&quality=95&crop=16:9&width=675",
-            desc: "Our team members."
+            url: "https://www.wipo.int/export/sites/www/madrid/images/madrid_system_certified_documents_845.jpg",
+            desc: "Get certified hero image."
           }}
         />
 

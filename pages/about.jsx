@@ -14,12 +14,12 @@ export default function Home() {
       <main>
         <Hero
           title={"About us"}
-          paragraph={
+          tagline={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
           }
           img={{
-            url: "https://www.canon-printersetupsupport.com/images/about-us.jpg",
-            desc: "Test image."
+            url: "https://st2.depositphotos.com/3591429/10464/i/450/depositphotos_104648666-stock-photo-group-of-people-brainstorming-on.jpg",
+            desc: "About us hero image."
           }}
         />
 
