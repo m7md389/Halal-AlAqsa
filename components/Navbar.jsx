@@ -4,7 +4,7 @@ import navbarStyles from "../styles/Navbar.module.scss";
 
 import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
-export const Navbar = () => {
+export default function Home() {
   const currentPath = useRouter().asPath;
 
   return (
@@ -65,7 +65,7 @@ export const Navbar = () => {
       </section>
     </nav>
   );
-};
+}
 
 const onClickNavLink = () => {};
 
@@ -73,5 +73,3 @@ const getNavlinkClass = (currentPath, link) =>
   currentPath === link
     ? `${navbarStyles.navLink} ${navbarStyles.navLinkActive}`
     : navbarStyles.navLink;
-
-// export default Navbar;
