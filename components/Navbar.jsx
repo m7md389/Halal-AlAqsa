@@ -4,7 +4,7 @@ import navbarStyles from "../styles/Navbar.module.scss";
 
 import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
-export default function Home() {
+export default function Navbar() {
   const currentPath = useRouter().asPath;
 
   return (
