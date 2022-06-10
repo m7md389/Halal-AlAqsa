@@ -2,7 +2,6 @@ import Head from "next/head";
 import Card from "../components/Card";
 import Process from "../components/Process";
 import Hero from "./../components/Hero";
-import TeamCard from "./../components/TeamCard";
 
 import {
   faBookmark,
