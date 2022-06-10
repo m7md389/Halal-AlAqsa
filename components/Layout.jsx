@@ -9,6 +9,10 @@ const Layout = ({ children }) => {
     <React.Fragment>
       <Head>
         <link rel="icon" href="/logo.png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@200;400;700&family=Shadows+Into+Light:wght@200;400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <header>
