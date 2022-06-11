@@ -13,7 +13,9 @@ const MemberCard = (props) => {
         />
         <h3 className={memberCardStyles.name}>{name}</h3>
       </div>
-      <p className={memberCardStyles.cv}>{cv}</p>
+      {cv.map((paragraph) => (
+        <p className={memberCardStyles.cv}>{paragraph}</p>
+      ))}
     </section>
   );
 };

@@ -2,6 +2,25 @@ import Head from "next/head";
 import Hero from "/components/Hero";
 
 export default function Home() {
+  const homeHero = {
+    title: "Halal AlAqsa",
+    tagline: "We give certificates and the world recognizes.",
+    img: {
+      url: "https://uploads-ssl.webflow.com/5ef11a90e077558caad294c1/5ef11a90e0775563bbd29746_halal-food-airline-p-1080.jpeg",
+      desc: "Home page hero image."
+    }
+  };
+
+  const halalAlaqsa = {
+    heading: "Halal Alaqsa",
+    description: [
+      "The Muslims around the world are more than one billion and a half billion Muslims, and the halal food for them is extremely important, the Muslim should not eat any food that does not comply with the Islamic laws, or it can be suspicious, from that principles coming the importance of Halal food for Muslims.",
+      "In the past the halal certificates were required only for meat which was imported to the Islamic countries, and since the halal concept has developed and spread across the world, today halal Certificates become required for all processed foods, medical products and cosmetics products… etc, in addition to the meat now the halal certificates became mandatory  from all the manufacturers for most of Islamic countries.",
+      "Because of necessary to the existence of specialized institutions in the granting of Halal certification for manufacturers, and these institutions must be highly credible and recognized by islamic . This is exactly what our office Halal Alaqsa doing through its office in Jerusalem.",
+      "By halal certificate obtained by the customer from our office (if the products are compatible with the applicable standards in our office),  you will have the ability to  open the export door to alot of Muslim countries around the world."
+    ]
+  };
+
   return (
     <div>
       <Head>
@@ -11,16 +30,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Hero
-          title={"Halal AlAqsa"}
-          tagline={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus."
-          }
-          img={{
-            url: "https://oks.org.il/wp-content/uploads/2021/04/jars-OKS-1.jpg",
-            desc: "Home page hero image."
-          }}
-        />
+        <Hero {...homeHero} />
+
+        <Card {...halalAlaqsa} />
       </main>
     </div>
   );

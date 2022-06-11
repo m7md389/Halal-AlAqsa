@@ -55,3 +55,34 @@
     }
   }
 }
+
+.innerCard {
+  max-width: 85%;
+  margin: auto;
+  background-color: transparent;
+  border-style: none;
+  padding: 0;
+  gap: 0;
+
+  .heading {
+    font-size: calc($font-size--medium-large * 0.8);
+    text-align: start;
+    padding: 0;
+  }
+
+  .description {
+    padding: 0px;
+  }
+
+  @media screen and (min-width: 720px) {
+    .heading {
+      font-size: calc($font-size--large * 0.8);
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .heading {
+      font-size: calc($font-size--x-large * 0.8);
+    }
+  }
+}
