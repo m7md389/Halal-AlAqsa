@@ -59,7 +59,7 @@ export default function Home() {
             <span className={navbarStyles.icon}>
               <FaEnvelope />
             </span>
-            <p className={navbarStyles.data}>contact-us@halal-alaqsa.com</p>
+            <p className={navbarStyles.data}>halal-alaqsa@gmail.com</p>
           </section>
         </main>
       </section>
