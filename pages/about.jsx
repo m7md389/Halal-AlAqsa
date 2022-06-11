@@ -3,8 +3,6 @@ import Hero from "/components/Hero";
 import Card from "/components/Card";
 
 export default function About() {
-<<<<<<< HEAD
-=======
   const aboutHero = {
     title: "About us",
     tagline:
@@ -32,7 +30,6 @@ export default function About() {
     ],
     innerCard: true
   };
->>>>>>> master
   return (
     <div>
       <Head>

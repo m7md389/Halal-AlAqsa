@@ -1,13 +1,7 @@
 import Head from "next/head";
-<<<<<<< HEAD
-import Card from "/components/Card";
-import Process from "/components/Process";
-import Hero from "/components/Hero";
-=======
 import Card from "../components/Card";
 import Process from "../components/Process";
 import Hero from "./../components/Hero";
->>>>>>> master
 
 import {
   faFileDownload,
@@ -16,8 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function GetCertified() {
-<<<<<<< HEAD
-=======
   const getCertifiedHero = {
     title: "Apply Now",
     tagline: "3 steps certification process",
@@ -27,7 +19,6 @@ export default function GetCertified() {
     }
   };
 
->>>>>>> master
   const processes = [
     {
       faIcon: faFileDownload,

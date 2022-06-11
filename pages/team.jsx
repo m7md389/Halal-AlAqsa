@@ -3,8 +3,6 @@ import Hero from "/components/Hero";
 import TeamCard from "/components/TeamCard";
 
 export default function Team() {
-<<<<<<< HEAD
-=======
   const teamHero = {
     title: "Team members",
     tagline:
@@ -15,7 +13,6 @@ export default function Team() {
     }
   };
 
->>>>>>> master
   const teamMembers = [
     {
       name: "Mohammad Jaber",
