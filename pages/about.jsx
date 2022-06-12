@@ -5,8 +5,7 @@ import Card from "./../components/Card";
 export default function About() {
   const aboutHero = {
     title: "About us",
-    tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus.",
+    tagline: "100% halal products for Muslims",
     img: {
       url: "https://st2.depositphotos.com/3591429/10464/i/450/depositphotos_104648666-stock-photo-group-of-people-brainstorming-on.jpg",
       desc: "About us hero image."
