@@ -5,7 +5,7 @@ import Card from "/components/Card";
 export default function Home() {
   const homeHero = {
     title: "Halal AlAqsa",
-    tagline: "We give certificates and the world recognizes.",
+    tagline: "We give certificates and the world recognizes",
     img: {
       url: "/logo.png",
       desc: "Home page hero image."

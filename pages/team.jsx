@@ -5,8 +5,7 @@ import TeamCard from "/components/TeamCard";
 export default function Team() {
   const teamHero = {
     title: "Team members",
-    tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus.",
+    tagline: "Skilled and experienced members in the field",
     img: {
       url: "https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg?auto=webp&quality=95&crop=16:9&width=675",
       desc: "Our team members."
