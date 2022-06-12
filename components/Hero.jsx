@@ -5,13 +5,11 @@ const Hero = (props) => {
   const { title, tagline, img } = props;
   return (
     <section className={heroStyles.hero}>
-      <div className={heroStyles.content}>
+      <header className={heroStyles.content}>
         <h1 className={heroStyles.heading}>{title}</h1>
         <p className={heroStyles.tagline}>{tagline}</p>
-      </div>
-      <span>
-        <img className={heroStyles.image} src={img.url} alt={img.desc} />
-      </span>
+      </header>
+      <img className={heroStyles.image} src={img.url} alt={img.desc} />
     </section>
   );
 };
