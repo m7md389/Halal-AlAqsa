@@ -1,34 +1,30 @@
 @use "./abstracts" as *;
 
 .hero {
-  align-items: center;
   background-image: radial-gradient(
     at center center,
     rgba($primary-color, 0.6) 0%,
     $primary-color 85%
   );
-  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
-  display: flex;
-  flex-wrap: wrap;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  display: grid;
   gap: 20px;
-  justify-content: space-around;
-  min-height: 600px;
-  width: 100vw;
-  padding-top: 100px;
+  margin: 0 auto;
+  padding: 100px 10px;
 
   .content {
     text-align: center;
-    max-width: 70%;
 
     .heading {
       color: $secondary-color;
+      flex-shrink: 0;
       font-family: $font-family--primary;
       font-size: $font-size--large;
       letter-spacing: 1px;
       line-height: 1em;
+      margin-block: 10px 20px;
       text-shadow: 5px -2px 3px rgb(0 0 0 / 30%);
       text-transform: uppercase;
-      flex-shrink: 0;
     }
 
     .tagline {
@@ -36,19 +32,26 @@
       font-family: $font-family--tertiary;
       font-size: $font-size--medium;
       font-weight: 700;
-      max-width: 40ch;
+      letter-spacing: 1px;
       margin: 0 auto;
+      max-width: 40ch;
     }
   }
 
   .image {
-    width: 100%;
+    max-width: 100%;
   }
 
   @media screen and (min-width: 720px) {
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    grid-template-columns: repeat(2, 1fr);
+
     .content {
+      align-self: center;
+
       .heading {
         font-size: $font-size--x-large;
+        margin-block: 0 30px;
       }
 
       .tagline {
@@ -61,6 +64,7 @@
     .content {
       .heading {
         font-size: $font-size--xx-large;
+        margin-block: 0 40px;
       }
     }
   }

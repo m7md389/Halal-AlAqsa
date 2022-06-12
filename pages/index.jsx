@@ -7,7 +7,7 @@ export default function Home() {
     title: "Halal AlAqsa",
     tagline: "We give certificates and the world recognizes.",
     img: {
-      url: "https://uploads-ssl.webflow.com/5ef11a90e077558caad294c1/5ef11a90e0775563bbd29746_halal-food-airline-p-1080.jpeg",
+      url: "/logo.png",
       desc: "Home page hero image."
     }
   };
