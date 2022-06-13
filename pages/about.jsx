@@ -29,6 +29,7 @@ export default function About() {
     ],
     innerCard: true
   };
+
   return (
     <div>
       <Head>

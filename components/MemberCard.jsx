@@ -5,19 +5,19 @@ const MemberCard = (props) => {
   const { name, photoUrl, cv } = props;
   return (
     <section role="member" className={memberCardStyles.container}>
-      <div className={memberCardStyles.member}>
+      <header className={memberCardStyles.member}>
         <img
           className={memberCardStyles.photo}
           src={photoUrl}
           alt={`Photo of  ${name}`}
         />
         <h3 className={memberCardStyles.name}>{name}</h3>
+      </header>
+      <div className={memberCardStyles.cv}>
+        {cv.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
       </div>
-      {cv.map((paragraph, index) => (
-        <p key={index} className={memberCardStyles.cv}>
-          {paragraph}
-        </p>
-      ))}
     </section>
   );
 };

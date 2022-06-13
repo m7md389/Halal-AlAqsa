@@ -50,7 +50,12 @@ export default function GetCertified() {
       <main>
         <Hero {...getCertifiedHero} />
 
-        <Card heading="Application for Halal Certification">
+        <Card
+          heading="Application for Halal Certification"
+          description={[
+            "The submission and initial screening of this form is available and Halal Alaqsa will respond to your application within a few days."
+          ]}
+        >
           {processes.map((process) => (
             <Process key={process.heading} {...process} />
           ))}
