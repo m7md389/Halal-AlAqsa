@@ -1,13 +1,13 @@
 import Head from "next/head";
-import Hero from "/components/Hero";
-import Card from "/components/Card";
+import Hero from "../components/Hero";
+import Card from "../components/Card";
 
 export default function About() {
   const aboutHero = {
     title: "About us",
     tagline: "100% halal products for Muslims",
     img: {
-      url: "https://st2.depositphotos.com/3591429/10464/i/450/depositphotos_104648666-stock-photo-group-of-people-brainstorming-on.jpg",
+      url: "images/about.bmp",
       desc: "About us hero image."
     }
   };

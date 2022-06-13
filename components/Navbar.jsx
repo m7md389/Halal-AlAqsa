@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import navbarStyles from "../styles/Navbar.module.scss";
 
-import { FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { /*FaPhone, FaWhatsapp,*/ FaEnvelope } from "react-icons/fa";
 
 export default function Navbar() {
   const currentPath = useRouter().asPath;
@@ -46,7 +46,7 @@ export default function Navbar() {
       <section role="contact" className={navbarStyles.contact}>
         <h2 className={navbarStyles.heading}>Get in touch</h2>
         <main>
-          <section role="phone">
+          {/* <section role="phone">
             <span className={navbarStyles.icon}>
               <FaPhone />
             </span>
@@ -54,7 +54,7 @@ export default function Navbar() {
               <FaWhatsapp />
             </span>
             <p className={navbarStyles.data}>+972 50 712 3652</p>
-          </section>
+          </section> */}
           <section role="email">
             <span className={navbarStyles.icon}>
               <FaEnvelope />

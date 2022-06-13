@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Card from "../components/Card";
 import Process from "../components/Process";
-import Hero from "./../components/Hero";
+import Hero from "../components/Hero";
 
 import {
   faFileDownload,
@@ -14,7 +14,7 @@ export default function GetCertified() {
     title: "Apply Now",
     tagline: "3 steps certification process",
     img: {
-      url: "https://www.wipo.int/export/sites/www/madrid/images/madrid_system_certified_documents_845.jpg",
+      url: "images/cirtificate.bmp",
       desc: "Get certified hero image."
     }
   };

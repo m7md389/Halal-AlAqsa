@@ -1,13 +1,13 @@
 import Head from "next/head";
-import Hero from "/components/Hero";
-import TeamCard from "/components/TeamCard";
+import Hero from "../components/Hero";
+import TeamCard from "../components/TeamCard";
 
 export default function Team() {
   const teamHero = {
     title: "Team members",
     tagline: "Skilled and experienced members in the field",
     img: {
-      url: "https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg?auto=webp&quality=95&crop=16:9&width=675",
+      url: "/images/team.bmp",
       desc: "Our team members."
     }
   };
@@ -15,8 +15,7 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Mohammad Jaber",
-      photoUrl:
-        "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.6435-9/145549364_4934348773306576_6284008872217121415_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lsKzreXm1scAX8-1xUi&_nc_ht=scontent.fsdv3-1.fna&oh=00_AT-z8PSy9V_YCxlrSI_7hNDsyFWu9XdfPWWc7w29tKKAnw&oe=62BE9BD7",
+      photoUrl: "/images/persons/mohammad_jaber.bmp",
       cv: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
@@ -26,8 +25,7 @@ export default function Team() {
     },
     {
       name: "Husam Afaneh",
-      photoUrl:
-        "https://www.aljazeera.net/wp-content/uploads/2014/08/dbffe381-8987-4a25-93ad-2755ca82402c.jpeg?resize=686%2C513",
+      photoUrl: "/images/persons/husam_afaneh.bmp",
       cv: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna."
@@ -35,8 +33,7 @@ export default function Team() {
     },
     {
       name: "Ibrahim Afaneh",
-      photoUrl:
-        "https://www.alquds.edu/wp-content/uploads/2021/08/Tarek-Rabi.jpg",
+      photoUrl: "/images/persons/unknown.bmp",
       cv: [
         "diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac."
       ]
