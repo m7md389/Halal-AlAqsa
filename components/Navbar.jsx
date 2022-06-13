@@ -8,16 +8,18 @@ export default function Navbar() {
   const currentPath = useRouter().asPath;
 
   return (
-    <nav className={navbarStyles.navbar}>
-      <section role="logo">
+    <nav role="navigation" className={navbarStyles.navbar}>
+      <div>
         <img
           className={navbarStyles.logo}
           src="/logo.png"
           alt="Halal Alaqsa logo"
+          width="150"
+          height="150"
         />
-      </section>
+      </div>
 
-      <section role="navbar links">
+      <div>
         <ul className={navbarStyles.navLinks}>
           <li onClick={() => {}} className={getNavlinkClass(currentPath, "/")}>
             <Link href="/">Home</Link>
@@ -41,12 +43,12 @@ export default function Navbar() {
             <Link href="/get_certified">Get Certified</Link>
           </li>
         </ul>
-      </section>
+      </div>
 
-      <section role="contact" className={navbarStyles.contact}>
+      <section role="group" className={navbarStyles.contact}>
         <h2 className={navbarStyles.heading}>Get in touch</h2>
         <main>
-          {/* <section role="phone">
+          {/* <div>
             <span className={navbarStyles.icon}>
               <FaPhone />
             </span>
@@ -54,13 +56,13 @@ export default function Navbar() {
               <FaWhatsapp />
             </span>
             <p className={navbarStyles.data}>+972 50 712 3652</p>
-          </section> */}
-          <section role="email">
+          </div> */}
+          <address className={navbarStyles.meh}>
             <span className={navbarStyles.icon}>
               <FaEnvelope />
             </span>
             <p className={navbarStyles.data}>halal-alaqsa@gmail.com</p>
-          </section>
+          </address>
         </main>
       </section>
     </nav>
