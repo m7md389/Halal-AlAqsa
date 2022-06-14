@@ -14,8 +14,9 @@ export default function Team() {
 
   const teamMembers = [
     {
+      prefix: "",
       name: "Mohammad Jaber",
-      photoUrl: "/images/persons/mohammad_jaber.bmp",
+      photoUrl: "/images/persons/mohammad_jaber.jpeg",
       cv: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
@@ -24,7 +25,8 @@ export default function Team() {
       ]
     },
     {
-      name: "Husam Afaneh",
+      prefix: "PhD.",
+      name: "Husam AlDin Afana",
       photoUrl: "/images/persons/husam_afaneh.bmp",
       cv: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id neque vel magna dictum gravida. Fusce auctor fringilla leo a efficitur. Phasellus consequat pretium leo eu consequat. Aliquam id magna.",
@@ -32,8 +34,9 @@ export default function Team() {
       ]
     },
     {
-      name: "Ibrahim Afaneh",
-      photoUrl: "/images/persons/unknown.bmp",
+      prefix: "Dr.",
+      name: "Ibrahim Abdallah Afaneh",
+      photoUrl: "/images/persons/ibrahim_afaneh.jpeg",
       cv: [
         "diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac."
       ]

@@ -24,7 +24,7 @@
     padding: 0;
 
     .navLink {
-      color: $navlink-color;
+      color: $color--navlink;
       font-family: $font-family--secondary;
       font-size: 1.6rem;
       font-weight: 900;
@@ -34,7 +34,7 @@
     .navLink:hover,
     .navLinkActive {
       box-sizing: content-box;
-      color: $secondary-color;
+      color: $color--navlink-active;
       cursor: pointer;
       position: relative;
 
@@ -59,7 +59,7 @@
     text-align: center;
 
     .heading {
-      text-shadow: 4px 3px 0 $navlink-color;
+      text-shadow: 4px 3px 0 $tertiary-color;
       font-size: $font-size--large;
       letter-spacing: 1px;
       margin: 10px 0;
@@ -85,7 +85,7 @@
           aspect-ratio: 1;
           background-color: rgba(255, 255, 255, 0.161);
           border-radius: 50%;
-          color: rgba($secondary-color, 0.75);
+          color: rgba($color--navbar-contact, 0.75);
           font-size: $font-size--small;
           height: 30px;
           justify-content: center;
@@ -95,7 +95,7 @@
           font-size: $font-size--medium;
           font-weight: 200;
           margin-inline-start: 0.25em;
-          color: $secondary-color;
+          color: $color--navbar-contact;
         }
       }
     }

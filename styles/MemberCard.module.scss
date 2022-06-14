@@ -22,7 +22,11 @@
       font-size: $font-size--medium;
       font-weight: 300;
       margin: 0;
+      // text-align: center;
       text-transform: uppercase;
+
+      .prefix {
+      }
     }
   }
 

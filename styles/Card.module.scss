@@ -2,9 +2,10 @@
 
 .card {
   padding: 30px 20px 20px;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: $color--card-background;
+  background-color: rgba($color--card-background, 0.75);
   border-style: dashed;
-  border-color: $primary-color;
+  border-color: $color--card-border;
   width: 940px;
   display: flex;
   flex-direction: column;
@@ -16,7 +17,7 @@
     text-transform: uppercase;
     font-family: $font-family--primary;
     font-size: $font-size--medium-large;
-    color: $primary-color;
+    color: $color--card-heading;
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -25,7 +26,7 @@
   .description {
     font-family: $font-family--secondary;
     font-size: $font-size--x-small;
-    color: #fff;
+    color: $color--card-description;
     margin: 0;
     padding: 10px;
     text-align: justify;

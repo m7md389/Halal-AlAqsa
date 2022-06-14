@@ -61,7 +61,7 @@ export default function Navbar() {
             <span className={navbarStyles.icon}>
               <FaEnvelope />
             </span>
-            <p className={navbarStyles.data}>halal-alaqsa@gmail.com</p>
+            <p className={navbarStyles.data}>halalalaqsa@gmail.com</p>
           </address>
         </main>
       </section>

@@ -3,8 +3,8 @@
 .hero {
   background-image: radial-gradient(
     at center center,
-    rgba($primary-color, 0.6) 0%,
-    $primary-color 85%
+    rgba($color--hero-background, 0.6) 0%,
+    $color--hero-background 85%
   );
   justify-content: center;
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
@@ -17,7 +17,7 @@
     text-align: center;
 
     .heading {
-      color: $secondary-color;
+      color: $color--hero-heading;
       flex-shrink: 0;
       font-family: $font-family--primary;
       font-size: $font-size--large;
@@ -29,7 +29,7 @@
     }
 
     .tagline {
-      color: #000;
+      color: $color--hero-tagline;
       font-family: $font-family--tertiary;
       font-size: $font-size--medium;
       font-weight: 700;

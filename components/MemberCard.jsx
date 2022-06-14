@@ -2,7 +2,7 @@ import React from "react";
 import memberCardStyles from "../styles/MemberCard.module.scss";
 
 const MemberCard = (props) => {
-  const { name, photoUrl, cv } = props;
+  const { prefix, name, photoUrl, cv } = props;
   return (
     <section role="member" className={memberCardStyles.container}>
       <header className={memberCardStyles.member}>
@@ -11,7 +11,10 @@ const MemberCard = (props) => {
           src={photoUrl}
           alt={`Photo of  ${name}`}
         />
-        <h3 className={memberCardStyles.name}>{name}</h3>
+        <h3 className={memberCardStyles.name}>
+          {prefix && <span className={memberCardStyles.prefix}>{prefix}</span>}{" "}
+          {name}
+        </h3>
       </header>
       <div className={memberCardStyles.cv}>
         {cv.map((paragraph, index) => (
