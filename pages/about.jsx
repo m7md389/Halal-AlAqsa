@@ -16,17 +16,20 @@ export default function About() {
     ourMission: {
       heading: "Our Mission",
       description: [
-        "We guarantee our Muslim customers 100% Halal products by demonstrating to the industry in a transparent way how to guarantee the safe creation of Halal products. Our potential target group consists of two main groups.",
-        "On the one hand, multinational companies in the food industry who want to expand their business by entering or developing the ever-growing market for Halal products. On the other hand, Muslims who want to buy wholly-Halal products.",
-        "For them, this is the most important buying factor, because they really want to have 100% Halal quality from all products that are labeled as Halal. Our certification services target both audiences and are able to meet their needs for proper certification for Halal products."
+        "We guarantee our Muslim customers 100% Halal products by being transparent with our methods and process of certifying Halal products. Our potential target group consists of two main groups.",
+        "A. Multinational companies in the food industry who want to expand their business by entering or developing the ever-growing market for Halal products.",
+        "B. Muslims who truly want to buy guaranteed Halal products.",
+        "For them, this is the most important buying factor, because they really want to have 100% Halal quality for all products labeled as Halal. Our certification services target both audiences and are able to meet their needs for proper certification for Halal products.",
+        "We are able to certify manufacturing plants of any size, meat producers and packers, raw food materials and additives, large catering facilities for airlines and cruises and other major events etc."
       ],
       innerCard: true
     },
     ourStaff: {
       heading: "Our Staff",
       description: [
-        "Our skilled and experienced personnel that understands Halal standards and the needs of the industry is one of our most important assets led by Islamic scholars and scholars in the nutritional industry, which brings valuable benefits for our customers.",
-        "Our team with extensive know-how and international experience provides superior services to our customers."
+        "Our skilled and experienced personnel understand Halal standards and the needs of the industry. Our strict staff is one of our most important assets.",
+        "We have a very experienced advisory board and Islamic scholars and experts in the nutritional industry, which brings valuable benefits for our customers.",
+        "Our team has the extensive know-how and international experience provides superior services to our customers."
       ],
       innerCard: true
     },

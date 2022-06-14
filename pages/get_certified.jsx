@@ -29,7 +29,7 @@ export default function GetCertified() {
       faIcon: faFileWaveform,
       heading: "Fill the form",
       description:
-        "print and fill this form as your first step and send it to our E-mail: halal-alaqsa@gmail.com"
+        "print and fill this form as your first step and send it to our E-mail: halalalaqsa@gmail.com"
     },
     {
       faIcon: faReply,

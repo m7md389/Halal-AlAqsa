@@ -7,7 +7,7 @@ export default function Team() {
     title: "Team members",
     tagline: "Skilled and experienced members in the field",
     img: {
-      url: "/images/team.bmp",
+      url: "/images/team.jpg",
       desc: "Our team members."
     }
   };

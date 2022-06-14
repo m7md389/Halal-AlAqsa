@@ -26,9 +26,9 @@
     .navLink {
       color: $color--navlink;
       font-family: $font-family--secondary;
-      font-size: 1.6rem;
+      font-size: $font-size--medium;
       font-weight: 900;
-      padding: 1.3rem 2rem;
+      padding: 1.3rem 2.5rem;
     }
 
     .navLink:hover,
@@ -103,5 +103,11 @@
 
   @media screen and (min-width: 1024px) {
     flex-direction: row;
+
+    .navLinks {
+      .navLink {
+        font-size: $font-size--medium-large;
+      }
+    }
   }
 }
