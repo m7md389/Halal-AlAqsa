@@ -6,9 +6,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
-  justify-items: center;
   padding: 20px 50px;
+
+  @media screen and (min-width: 1042px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .logo {
     width: 150px;
@@ -29,6 +32,10 @@
       font-size: $font-size--medium;
       font-weight: 900;
       padding: 1.3rem 2.5rem;
+
+      @media screen and (min-width: 1300px) {
+        font-size: $font-size--medium-large;
+      }
     }
 
     .navLink:hover,
@@ -97,16 +104,6 @@
           margin-inline-start: 0.25em;
           color: $color--navbar-contact;
         }
-      }
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    flex-direction: row;
-
-    .navLinks {
-      .navLink {
-        font-size: $font-size--medium-large;
       }
     }
   }
