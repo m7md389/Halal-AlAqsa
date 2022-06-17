@@ -1,9 +1,26 @@
-.team {
-  .members {
-    display: grid;
+@use "./abstracts" as *;
 
-    @media screen and (min-width: 720px) {
-      grid-template-columns: 1fr 1fr;
-    }
+.teamList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-inline: auto;
+}
+
+.memberHeaderContainer {
+  border-color: $color--card-border;
+  border-radius: 50px;
+  border-style: dashed;
+  cursor: pointer;
+  padding: 1.5em 20em 1.5em 3em;
+
+  .memberHeader {
+    transition: transform 200ms;
+  }
+}
+
+.memberHeaderContainer:hover {
+  .memberHeader {
+    transform: scale(1.2) translateX(7em);
   }
 }

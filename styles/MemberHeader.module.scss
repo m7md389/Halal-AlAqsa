@@ -1,0 +1,35 @@
+@use "./abstracts" as *;
+@use "./abstracts" as *;
+
+.container {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  .photo {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+  }
+
+  .name {
+    color: $primary-color;
+    font-family: $font-family--tertiary;
+    font-size: $font-size--medium;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 720px) {
+    .photo {
+      width: 60px;
+    }
+
+    .name {
+      font-size: $font-size--medium-large;
+    }
+  }
+}
