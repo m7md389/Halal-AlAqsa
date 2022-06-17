@@ -7,8 +7,8 @@ export default function About() {
     title: "About us",
     tagline: "100% halal products for Muslims",
     img: {
-      url: "images/about.bmp",
-      desc: "About us hero image."
+      url: "images/who_are_we.jpg",
+      desc: "Who we are image."
     }
   };
 
