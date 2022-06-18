@@ -22,6 +22,13 @@
       font-size: $font-size--small;
       text-align: justify;
     }
+
+    .attachedFiles {
+      border-bottom: 1px solid;
+      padding-bottom: 2px;
+      cursor: pointer;
+      font-weight: 600;
+    }
   }
 
   .icon {

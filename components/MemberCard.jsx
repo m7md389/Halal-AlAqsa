@@ -4,12 +4,18 @@ import memberCardStyles from "../styles/MemberCard.module.scss";
 import Card from "./Card";
 
 const MemberCard = (props) => {
-  const { prefix, name, photoUrl, cv } = props;
+  const { prefix, name, suffix, position, photoUrl, cv } = props;
 
   return (
     <section role="member" className={memberCardStyles.container}>
       <header className={memberCardStyles.member}>
-        <MemberHeader prefix={prefix} name={name} photoUrl={photoUrl} />
+        <MemberHeader
+          prefix={prefix}
+          name={name}
+          suffix={suffix}
+          position={position}
+          photoUrl={photoUrl}
+        />
       </header>
       <div className={memberCardStyles.cv}>
         {Object.entries(cv).map(([key, value], index) => (

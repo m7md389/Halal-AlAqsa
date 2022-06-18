@@ -23,7 +23,11 @@ export default function GetCertified() {
     {
       faIcon: faFileDownload,
       heading: "Download form",
-      description: "Please download our Application form here: ..."
+      description: "Please download our Application form here:",
+      attachedFiles: {
+        text: "Application Form.",
+        link: "/logo.png"
+      }
     },
     {
       faIcon: faFileWaveform,

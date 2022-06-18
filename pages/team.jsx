@@ -16,8 +16,11 @@ export default function Team() {
     {
       prefix: "",
       name: "Mohammad Jaber",
+      suffix: "",
+      position: "Executive Director of Halal Alaqsa",
       photoUrl: "/images/persons/mohammad_jaber.jpeg",
       cv: {
+        "Place of birth": ["Jerusalem - Palestine"],
         Education: [
           "Project management certificate from Anwar college – Jerusalem",
           "Diploma in Islamic Sharia Anata- Jerusalem",
@@ -38,10 +41,13 @@ export default function Team() {
       }
     },
     {
-      prefix: "PhD.",
-      name: "Husam AlDin Afana",
+      prefix: "Mufti",
+      name: "Husam Al-Din bin Musa Muhammad bin Afana",
+      suffix: "",
+      position: "Head of Advisory Board",
       photoUrl: "/images/persons/husam_afaneh.bmp",
       cv: {
+        "Place of birth": ["Jerusalem - Palestine"],
         "Academic degrees": [
           "BA in Sharia with a grade of “very good” with honors from the College of Sharia, Islamic University - Madinah / Saudi Arabia in 1978.",
           "MA in Fiqh & Usool, with a grade of “very good”, from the College of Sharia - Umm Al-Qura University / Saudi Arabia in 1982.",
@@ -80,9 +86,12 @@ export default function Team() {
     },
     {
       prefix: "Dr.",
-      name: "Ibrahim Abdallah Afaneh",
+      name: "Inrahim Abdallah Afaneh",
+      suffix: "P.h.d. in Food Engineering",
+      position: "Ingredients Advisor",
       photoUrl: "/images/persons/ibrahim_afaneh.jpeg",
       cv: {
+        "Place of birth": ["Saudi Arabia"],
         Education: [
           "1998-2001	PhD. Food Engineering/ Chemical Engineering school (study the heat and mass transfer processes to improve the technology of fried foods). Queens University of Belfast, U.K."
         ],

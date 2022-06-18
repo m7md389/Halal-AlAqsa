@@ -13,13 +13,32 @@
     width: 50px;
   }
 
+  .prefix {
+    font-weight: 400;
+  }
+
   .name {
-    color: $primary-color;
-    font-family: $font-family--tertiary;
-    font-size: $font-size--medium;
+    border-bottom: 2px solid;
+    color: rgba($secondary-color, 0.6);
+    font-family: $font-family--primary;
+    font-size: $font-size--medium-large;
     font-weight: 300;
     margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
     text-transform: uppercase;
+  }
+
+  .position {
+    border-bottom: 2px solid;
+    color: rgba($secondary-color, 0.6);
+    font-family: $font-family--secondary;
+    font-size: $font-size--small;
+    font-weight: 300;
+    margin: 0.3em 0 0;
+    margin-inline: 5em;
+    padding-bottom: 5px;
+    text-align: center;
   }
 
   @media screen and (min-width: 720px) {
@@ -28,7 +47,15 @@
     }
 
     .name {
-      font-size: $font-size--medium-large;
+      font-size: $font-size--large;
+    }
+
+    .suffix {
+      // font-size: $font-size--medium;
+    }
+
+    .position {
+      font-size: $font-size--medium;
     }
   }
 }
