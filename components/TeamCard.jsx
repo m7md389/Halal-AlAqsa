@@ -12,16 +12,16 @@ const TeamCard = (props) => {
     return (
       <Card heading="Our Team Members">
         <div className={teamCardStyles.teamList}>
-          {Object.entries(teamMembers).map(([index, member]) => (
-            <div className={teamCardStyles.memberHeaderContainer}>
+          {Object.entries(teamMembers).map(([key, value], index) => (
+            <div key={index} className={teamCardStyles.memberHeaderContainer}>
               <div
                 className={teamCardStyles.memberHeader}
-                onClick={() => setCurrentMember(member)}
+                onClick={() => setCurrentMember(value)}
               >
                 <MemberHeader
-                  prefix={member.prefix}
-                  name={member.name}
-                  photoUrl={member.photoUrl}
+                  prefix={value.prefix}
+                  name={value.name}
+                  photoUrl={value.photoUrl}
                 />
               </div>
             </div>

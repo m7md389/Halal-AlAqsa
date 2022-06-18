@@ -3,6 +3,10 @@
 .container {
   margin-bottom: 20px;
 
+  .member {
+    margin-inline-start: 2rem;
+  }
+
   .cv {
     color: #fff;
     font-family: $font-family--secondary;

@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import MemberHeader from "./MemberHeader";
 import memberCardStyles from "../styles/MemberCard.module.scss";
+import Card from "./Card";
 
 const MemberCard = (props) => {
   const { prefix, name, photoUrl, cv } = props;
@@ -11,8 +12,8 @@ const MemberCard = (props) => {
         <MemberHeader prefix={prefix} name={name} photoUrl={photoUrl} />
       </header>
       <div className={memberCardStyles.cv}>
-        {cv.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
+        {Object.entries(cv).map(([key, value], index) => (
+          <Card key={index} heading={key} description={value} innerCard />
         ))}
       </div>
     </section>
