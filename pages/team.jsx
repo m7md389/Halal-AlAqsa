@@ -14,7 +14,7 @@ export default function Team() {
 
   const teamMembers = [
     {
-      prefix: "",
+      prefix: "Eng.",
       name: "Mohammad Jaber",
       suffix: "",
       position: "Executive Director of Halal Alaqsa",

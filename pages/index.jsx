@@ -7,7 +7,7 @@ export default function Home() {
     title: "Halal AlAqsa",
     tagline: "We give certificates and the world recognizes",
     img: {
-      url: "/logo.png",
+      url: "/logo_700.png",
       desc: "Home page hero image."
     }
   };
