@@ -26,14 +26,15 @@ export default function GetCertified() {
       description: "Please download our Application form here:",
       attachedFiles: {
         text: "Application Form.",
-        link: "/logo.png"
+        link: "/files/application_form.docx"
       }
     },
     {
       faIcon: faFileWaveform,
       heading: "Fill the form",
       description:
-        "print and fill this form as your first step and send it to our E-mail: halalalaqsa@gmail.com"
+        "print and fill this form as your first step and send it to our E-mail:",
+      email: "halalalaqsa@gmail.com"
     },
     {
       faIcon: faReply,
