@@ -26,7 +26,7 @@ export default function GetCertified() {
       description: "Please download our Application form here:",
       attachedFiles: {
         text: "Application Form.",
-        link: "/files/application_form.docx"
+        link: "/files/Application Form.docx"
       }
     },
     {
