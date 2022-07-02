@@ -12,7 +12,7 @@ export default function Navbar() {
       <div>
         <img
           className={navbarStyles.logo}
-          src="/logo.png"
+          src="/logo_150.png"
           alt="Halal Alaqsa logo"
           width="150"
           height="150"

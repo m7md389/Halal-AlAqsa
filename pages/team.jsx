@@ -14,13 +14,13 @@ export default function Team() {
 
   const teamMembers = [
     {
-      prefix: "",
+      prefix: "Eng.",
       name: "Mohammad Jaber",
       suffix: "",
       position: "Executive Director of Halal Alaqsa",
       photoUrl: "/images/persons/mohammad_jaber.jpeg",
       cv: {
-        "Place of birth": ["Jerusalem - Palestine"],
+        "Place of birth": ["AlQuds - Palestine"],
         Education: [
           "Project management certificate from Anwar college – Jerusalem",
           "Diploma in Islamic Sharia Anata- Jerusalem",
@@ -47,7 +47,7 @@ export default function Team() {
       position: "Head of Advisory Board",
       photoUrl: "/images/persons/husam_afaneh.bmp",
       cv: {
-        "Place of birth": ["Jerusalem - Palestine"],
+        "Place of birth": ["AlQuds - Palestine"],
         "Academic degrees": [
           "BA in Sharia with a grade of “very good” with honors from the College of Sharia, Islamic University - Madinah / Saudi Arabia in 1978.",
           "MA in Fiqh & Usool, with a grade of “very good”, from the College of Sharia - Umm Al-Qura University / Saudi Arabia in 1982.",
