@@ -37,7 +37,7 @@ export default function About() {
       heading: "Blessing",
       description: [
         "Mufti Husam Al-Din bin Musa Muhammad bin Afana - Head of Advisory Board.",
-        "Dr. Inrahim Abdallah Afaneh P.h.d.in Food Engineering – Ingredients Advisor.",
+        "Dr. Ibrahim Abdallah Afaneh P.h.d.in Food Engineering – Ingredients Advisor.",
         "Jaber Mohamed – Executive Director of Halal Alaqsa."
       ],
       innerCard: true

@@ -86,7 +86,7 @@ export default function Team() {
     },
     {
       prefix: "Dr.",
-      name: "Inrahim Abdallah Afaneh",
+      name: "Ibrahim Abdallah Afaneh",
       suffix: "P.h.d. in Food Engineering",
       position: "Ingredients Advisor",
       photoUrl: "/images/persons/ibrahim_afaneh.jpeg",
